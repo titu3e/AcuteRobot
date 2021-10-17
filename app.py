@@ -20,7 +20,7 @@ from acutebot.helpers.database.spotify_sql import update_creds
 from acutebot.helpers.spthelper import SpotifyClient
 
 
-bot = Bot(2065495369:AAFNX5uwHsTXtiULbXHFxwofw0DFb4eOx-g)
+bot = Bot(TOKEN)
 
 
 class MainHandler(tornado.web.RequestHandler):
